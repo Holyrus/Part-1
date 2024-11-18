@@ -2,9 +2,10 @@
 
 const StatisticLine = (props) => {
   return (
-    <div>
-        <p>{props.text} {props.value} {props.text2}</p>
-    </div>
+    <tr>
+        <td>{props.text}</td>
+        <td>{props.value} {props.text2}</td>
+    </tr>
   )
 }
 
